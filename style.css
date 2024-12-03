@@ -1,10 +1,9 @@
-/* General Styles */
 body {
     font-family:'Lucida Sans';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0e1e1;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -58,7 +57,6 @@ h1, h2, h3 {
     border-radius: 12px;
 }
 
-/* Navbar Styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -88,7 +86,6 @@ h1, h2, h3 {
     padding: 5px 10px;
 }
 
-/* Personal Info Styles */
 .personal-container {
     margin-top: 50px;
     display: flex;
@@ -124,7 +121,6 @@ h1, h2, h3 {
     margin: 5px 0;
 }
 
-/* Education Section */
 .education {
     margin-left: 10px;
 }
@@ -145,14 +141,12 @@ h1, h2, h3 {
     margin-top: 5px;
 }
 
-/* Added: Education List Styling */
 .education ul {
     list-style-type: disc;
     margin-left: 40px;
     padding-left: 0;
 }
 
-/* Skills Styles */
 .skills-container {
     text-align: center;
     margin-top: 20px;
@@ -168,7 +162,6 @@ h1, h2, h3 {
     text-align: left;
 }
 
-/* Contact Styles */
 .contact-container {
     text-align: left;
     margin-top: 20px;
@@ -196,6 +189,40 @@ h1, h2, h3 {
 }
 
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 30px;
+}
+.gallery2 img{
+    margin: 10px 10px 10px 20px ;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    transition:cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+
+.gallery img {
+    max-width: 150px;
+    height: 300px;
+    border-radius: 10px;
+}
+#gallery-h2{
+    margin: 70px 0px 5px 20px;
+    display: block;
+}
+#gallery2{
+    margin: 70px 0px 5px 20px;
+    display: block;
+}
+
 
 
 .navbar ul li a.active {
@@ -204,8 +231,7 @@ h1, h2, h3 {
 }
 
 
-/* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .info-box {
         flex-direction: column;
         text-align: center;
